@@ -9,6 +9,8 @@
     border: 2px  solid black;
     display: flex;
     float: right;
+    position: sticky;
+    top: 0;
 
 }
 .nav2 {
@@ -305,4 +307,14 @@ footer {
     padding-left: 15px;
     margin-left: 10px;
     align-content: center;
+}
+.fixed {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(36, 36, 172);
+      position: fixed;  
+    margin-left: 1200px ;
+    margin-top: 240px;
+    float: inline-start;
+    border-radius: 50%;
 }
